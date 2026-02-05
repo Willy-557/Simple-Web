@@ -4,7 +4,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
 }
 
 .card {
@@ -54,25 +53,30 @@ body {
 .kelebihan .strength {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-right: 83px;
+    margin-right: 43px;
     color: rgb(80, 54, 211);
 }
 
-.whatsapp {
+.whatsapp .tombol-wa {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
+    gap: 10px;
+    text-decoration: none;
 }  
 
-.whatsapp .logo {
-    width: 70px;
-    margin-bottom: -200px;
-    margin-right: 240px;
+.whatsapp .logo_wa {
+    margin-bottom: -320px;
+    margin-left: -40px;
+    width: 60px;    
+    height: 60px;
 }
 
-.whatsapp .contact {
+.whatsapp h2 {
+    margin-bottom: -300px;
     color: darkcyan;
     text-align: center;
-    margin-bottom: -320px;
-    margin-left: -230px;}
+}
+
+
+
