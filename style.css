@@ -11,7 +11,7 @@ body {
     box-shadow: 4px 10px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10%;
     width: 60vh;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,19 +63,31 @@ body {
     align-items: center;
     gap: 10px;
     text-decoration: none;
+
+    background-color: #25D366; /* Warna Hijau WA */
+    color: white;              /* Tulisan jadi Putih */
+    padding: 10px 25px;        /* Tebal tombol */
+    border-radius: 50px;       /* Jadi bulat lonjong (kapsul) */
+    margin-top: 40px;
+    box-shadow: 0px 5px 15px rgba(37, 211, 102, 0.4); /* Efek glowing */
+    transition: 0.3s;          /* Biar animasi halus */
 }  
 
 .whatsapp .logo_wa {
-    margin-bottom: -320px;
-    margin-left: -40px;
-    width: 60px;    
-    height: 60px;
+    width: 24px;    
+    height: 24px;
 }
 
 .whatsapp h2 {
-    margin-bottom: -300px;
-    color: darkcyan;
-    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
+
+.tombol-wa:hover {
+    transform: scale(1.05);    /* Membesar dikit pas disentuh */
+    background-color: #128C7E; /* Warna berubah jadi hijau tua */
+    cursor: pointer;
 }
 
 
